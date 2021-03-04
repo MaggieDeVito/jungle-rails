@@ -1,0 +1,11 @@
+
+<h1>Admin &raquo; All Categories</h1>
+
+<h3>Categories</h3>
+
+<div class="well">
+<%= link_to '+ New Category', [:new, :admin, :category], class: 'btn btn-info' %>
+</div>
+
+  <%= render @categories %>
+    
